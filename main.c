@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    double dtb;
-    double drl;
+    float dtb, drl;
   
-  scanf("%lf",&dtb);
-  
-  scanf("%lf", &drl);
-  if (dtb >=9.0 && drl >=90) {
-    printf("Xep loai hoc bong :XUAT_SAC\n");
+  scanf("%f %f",&dtb, &drl);
+  if (dtb<7 || drl<7) {
+    printf ("KHONG_DAT");
   }
-  else if (dtb >=8.0 && drl >=80) {
-    printf ("Xep loai hoc bong :GIOI\n");
+  else if (dtb >=9.0 && drl >=90) {
+    printf ("HOC_BONG_XUAT_SAC");
   }
-  else if (dtb >=7.0 && drl>=70) {
-    printf ("Xep loai hoc bong :KHA\n");
+  else if ((dtb>=8.0 && drl>80 ) || (dtb >=9.0 && drl >=80)) {
+    printf ("HOC_BONG_GIOI");
+  }
+  else if((dtb>=7.0 && drl >=70) || (dtb >=8.0 && drl >=70)|| (dtb >=9.0 && drl >=70)) {
+    printf (" HOC_BONG_KHA");
   }
   else {
-    printf ("Khong duoc hoc bong\n");
+  printf ("KHONG_DAT");
   }
      return 0;
 }
