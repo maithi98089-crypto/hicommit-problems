@@ -15,7 +15,7 @@ int main() {
         printf ("XEP_LOAI_TRUNG_BINH\n");
         break;
       default:
-        printf ("KHONG_HOP_LE\n);
+        printf ("KHONG_HOP_LE\n");
         break;
     }
   }
