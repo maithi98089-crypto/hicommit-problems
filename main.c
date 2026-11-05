@@ -8,6 +8,7 @@ int main() {
         break;
       case 2:
         printf ("XEP_LOAI_GIOI\n");
+        break;
       case 3:
         printf("XEP_LOAI_KHA\n");
         break;
