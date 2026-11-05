@@ -3,9 +3,9 @@
 int main() {
     double dtb;
     double drl;
-  printf ("Nhap diem trung binh hoc tao (dtb);
+  
   scanf("%lf",&dtb);
-  printf ("Nhap diem ren luyen (drl) :");
+  
   scanf("%lf", &drl);
   if (dtb >=9.0 && drl >=90) {
     printf("Xep loai hoc bong :XUAT_SAC\n");
@@ -17,7 +17,7 @@ int main() {
     printf ("Xep loai hoc bong :KHA\n");
   }
   else {
-    printf ("KHONG_dat (khong_duoc_hoc_bong)\n");
+    printf ("KHONG_DAT");
   }
      return 0;
 }
