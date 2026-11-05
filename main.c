@@ -10,7 +10,7 @@ int main() {
     printf ("HOC_BONG_GIOI");
   }
   else if((dtb>=7.0 && drl >=70) || (dtb >=8.0 && drl >=70)|| (dtb >=9.0 && drl >=70)) {
-    printf (" HOC_BONG_KHA");
+    printf ("HOC_BONG_KHA");
   }
   else {
   printf ("KHONG_DAT");
